@@ -1,0 +1,85 @@
+<ion-app>
+  <div class="sidemenu">
+    <div class="menu-profile">
+      <div class="bg-side-profile">
+        <img src="../assets/user.jpg" alt="user">
+      </div>
+      <div class="user-details">
+        <h1>Kerri Conrad</h1>
+        <strong>67589 77890</strong>
+        <span>kerri_conard@gmail.com</span>
+      </div>
+    </div>
+    <ul>
+      <li>
+        <a href="dashboard" class="active">
+          <img src="../assets/icon/home-active-ico.png" class="non-active" alt="home"/>
+          <img src="../assets/icon/home-active-ico.png" class="active" alt="home"/>Home
+        </a>
+      </li>
+      <li>
+        <a href="my-profile" class="profile-icon">
+          <img src="../assets/icon/my-profile-ico.png" class="non-active" alt="my-profile"/>
+          <img src="../assets/icon/my-profile-active-ico.png" class="active" alt="my-profile"/>My Profile
+        </a>
+      </li>
+      <li>
+        <a href="history" class="history-icon">
+          <img src="../assets/icon/history-ico.png" class="non-active" alt="history"/>
+          <img src="../assets/icon/history-active-ico.png" class="active" alt="history"/>History
+        </a>
+      </li>
+      <li>
+        <a href="membership">
+          <img src="../assets/icon/membership-ico.png" class="non-active" alt="membership"/>
+          <img src="../assets/icon/membership-active-ico.png" class="active" alt="membership"/>Membership
+        </a>
+      </li>
+      <li>
+        <a href="settings">
+          <img src="../assets/icon/settings-ico.png" class="non-active" alt="settings"/>
+          <img src="../assets/icon/settings-active-ico.png" class="active" alt="settings"/>Settings
+        </a>
+      </li>
+      <li>
+        <a href="refer">
+          <img src="../assets/icon/refer-ico.png" class="non-active" alt="refer"/>
+          <img src="../assets/icon/refer-active-ico.png" class="active" alt="refer"/>Refer a Friend
+        </a>
+      </li>
+      <li>
+        <a href="faq" class="faq-icon">
+          <img src="../assets/icon/faq-ico.png" class="non-active" alt="faq"/>
+          <img src="../assets/icon/faq-active-ico.png" class="active" alt="faq"/>FAQ / Support
+        </a>
+      </li>
+      
+      <li>
+        <a href="privacy">
+          <img src="../assets/icon/privacy-ico.png" class="non-active" alt="privacy"/>
+          <img src="../assets/icon/privacy-active-ico.png" class="active" alt="privacy"/>Privacy Policy
+        </a>
+      </li>
+      <li>
+        <a href="##" class="terms-icon">
+          <img src="../assets/icon/terms-ico.png" class="non-active" alt="terms"/>
+          <img src="../assets/icon/terms-active-ico.png" class="active" alt="terms"/>Terms & Conditions
+        </a>
+      </li>
+      <li>
+        <a href="login">
+          <img src="../assets/icon/logout-ico.png" class="non-active" alt="logout"/>
+          <img src="../assets/icon/logout-active-ico.png" class="active" alt="logout"/>Logout
+        </a>
+      </li>
+    </ul>
+  </div>
+  <ion-router-outlet id="main-content"></ion-router-outlet>
+  <ul class="bottom-menu">
+    <li><a href="dashboard"><img src="../../../assets/icon/home-icon.png" alt="home" /><span>Home</span></a></li>
+    <li><a href="my-profile"><img src="../../../assets/icon/profile-icon.png" alt="profile" /><span>Profile</span></a></li>
+    <li class="highlighted"><a href="scanner"><img src="../../../assets/icon/dashboard-icon.png" alt="scanner" /></a></li>
+    <li><a href="history"><img src="../../../assets/icon/history-icon.png" alt="history" /><span>History</span></a></li>
+    <li><a href="settings"><img src="../../../assets/icon/setting-icon.png" alt="settings" /><span>Settings</span></a></li>
+  </ul>
+</ion-app>

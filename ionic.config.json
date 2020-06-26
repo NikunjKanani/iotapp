@@ -1,0 +1,8 @@
+{
+  "name": "iot",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

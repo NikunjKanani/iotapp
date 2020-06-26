@@ -1,0 +1,21 @@
+.container{background-image:url(../../../assets/bg.jpg);text-align: center;}
+.floating-logo{position: relative;height: 230px;}
+.floating-logo .logo{background: #fff;display: table;margin: 0 auto;border-radius: 50%;width: 100px;height: 100px;box-shadow:0 3px 15px rgba(0, 0, 0, 0.3);padding: 20px 0;position: relative;top: 73px;z-index: 1;}
+.animate-dots{animation: dotanim linear 2s infinite;transform: rotate(0deg) scale(1);background-image: url(../../../assets/icon/dotted-circle.svg);width: 250px;height: 250px;position: absolute;left: 0;top: 0;right: 0;margin: 0 auto;background-position: center;background-repeat: no-repeat;background-size: cover;}
+@keyframes dotanim{0%{transform: rotate(0deg) scale(1)}25%{transform: rotate(90deg) scale(1.1)}50%{transform: rotate(180deg) scale(1.2)}75%{transform: rotate(270deg) scale(1.1)}100%{transform: rotate(360deg) scale(1);}}
+.form-group img{width: 16px;position: absolute;left:22px;top:14px}
+p,a,h1{color: #fff;margin: 0;}
+p{font-size: 15px;font-weight: 600;;}
+p a{font-size: 16px;}
+h1{font-weight: 400;font-size: 30px;}
+h1 strong{margin-bottom: 15px;display: block;font-size: 33px;}
+.an-account{margin:15px 0 0 0}
+.or{margin: 15px 0 20px 0;}
+.or span:before,.or span:after{content: "";width: 50px;height: 1px;background: #fff;position: absolute;top: 9px;}
+.or span:before{left: -60px;}
+.or span:after{right: -60px;}
+.or span{display: table;margin: 0 auto;position: relative;}
+.social-signup{padding-bottom: 50px;}
+.social-signup a{text-decoration: none;color:#465C87;background: #fff;border-radius: 50px;padding: 10px;width: 100px;display: inline-block;margin: 0 2%;font-weight: 600;box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);font-size: 14px;}
+.social-signup a:nth-child(1){width: 130px;}
+.social-signup a img{width: 19px;vertical-align: middle;margin-right: 8px;}

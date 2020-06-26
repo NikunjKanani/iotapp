@@ -1,0 +1,10 @@
+.white-card{padding:20px}
+.toggle-check input{display: none;}
+.toggle-check span{float:right;background-color:#6CA7DB;position: relative;width: 32px;height: 20px;border-radius: 50px;display: block;transition: 0.2s;}
+.toggle-check span:before{content: "";position: absolute;width: 14px;height: 14px;background: #fff;border-radius: 50%;top: 3px;left: 4px;box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);transition: 0.2s;}
+.toggle-check input[type="checkbox"]:checked + span{background-color: #67DCD1;transition: 0.2s;}
+.toggle-check input[type="checkbox"]:checked + span:before{left:16px;transition: 0.2s;}
+span{font-size: 14px;font-weight: 600;color: #3583C9;}
+h5{font-size: 17px;color:#3583C9;font-weight: 700;margin:5px 0 10px 0}
+.col-12{padding: 15px 0;border-bottom: 1px solid rgba(88, 145, 196, 0.21);}
+.col-12:nth-last-child(1){border:none}

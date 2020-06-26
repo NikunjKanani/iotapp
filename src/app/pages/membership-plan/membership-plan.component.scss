@@ -1,0 +1,20 @@
+h5{color: #0779E4;text-align: center;font-weight: 700;}
+.blue-card{margin-bottom: 20px;}
+.member-card{position: relative;border-radius: 16px;margin-bottom: 20px;padding:15px 20px}
+.member-card p{margin:2px 0 10px 0}
+.member-card .title{font-size: 14px;font-weight: 700;}
+.member-card .desc{font-size: 15px;}
+.member-card .desc span{vertical-align: middle;}
+.member-card .desc strong{font-size: 16px;font-weight: 700;margin-left: 8px;vertical-align: middle;}
+.member-card .tag{position: absolute;top: 17px;right: 0;color: #fff;font-size: 13px;font-weight: 600;padding: 3px 8px;background-color: rgba(255, 78, 105, 0.75);}
+.member-card .tag:before{content: '';position: absolute;border: 10px solid;border-color: transparent rgba(255, 78, 105, 0.75) transparent transparent;left: -20px;top: 0;}
+.member-card button{border-radius: 50px;font-weight: 600;font-size: 9px;padding:5px 8px;color:#fff}
+.light-red{background: #FFE9E1;border:1px solid #F3DED6;}
+.light-red button{background-color: #F56B3F;}
+.light-red p,.light-red .title{color: #F56B3F;}
+.light-blue{background: #EAF7F7;border:1px solid #D9F2F2;}
+.light-blue button{background-color: #0ED8DF;}
+.light-blue p,.light-blue .title{color: #0ED8DF;}
+.light-violet{background: #F4F0F8;border:1px solid #EFE6F8;}
+.light-violet button{background-color: #895ED1;}
+.light-violet p,.light-violet .title{color: #895ED1;}
