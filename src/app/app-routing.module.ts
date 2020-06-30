@@ -68,6 +68,18 @@ const routes: Routes = [
   {
     path: 'scanner',
     loadChildren: () => import('./pages/scanner/scanner.module').then( m => m.ScannerModule)
+  },
+  {
+    path: 'refer',
+    loadChildren: () => import('./pages/refer/refer.module').then( m => m.ReferModule)
+  },
+  {
+    path: 'book-success',
+    loadChildren: () => import('./pages/book-success/book-success.module').then( m => m.BookSuccessModule)
+  },
+  {
+    path: 'architecture',
+    loadChildren: () => import('./pages/architecture/architecture.module').then( m => m.ArchitectureModule)
   }
 ];
 

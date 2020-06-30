@@ -59,9 +59,12 @@ header{background-image: url(assets/icon/patch.png);padding:0 5px;background-rep
 .main-title{color: #fff;font-weight: 700;font-size: 18px;position: absolute;top: 13px;left: 0;right: 0;margin: 0 auto;text-align: center;max-width: 210px;}
 
 /*slider changes*/
-.swiper-pagination .swiper-pagination-bullet{width: 7px;height: 7px;background:#9BBCDC}
-.swiper-pagination .swiper-pagination-bullet-active{background:#0779E4}
-.swiper-pagination{bottom: -3px !important;}
+.swiper-container{padding-bottom: 20px;}
+.swiper-pagination .swiper-pagination-bullet{width: 5px;height: 5px;background:#9BBCDC;vertical-align: middle;}
+.swiper-pagination .swiper-pagination-bullet-active{background:#0779E4;width: 9px;height:9px;}
+.swiper-pagination{bottom: 0px !important;}
+.slide{width: 100%;height:200px;border-radius: 15px;overflow: hidden;}
+.slide img{width: 100%;height: auto;object-fit: cover;height: 200px;}
 
 /*bottom menu*/
 .bottom-menu{padding: 0;margin: 0;box-shadow:0 -7px 22px rgba(77, 140, 181, 0.16);position: fixed;bottom: 0;z-index: 99;left: 0;background: #fff;width: 100%;}
@@ -94,7 +97,7 @@ header{background-image: url(assets/icon/patch.png);padding:0 5px;background-rep
 .menu.active span:nth-child(2){transition: 0.2s;}
 .menu.active span:nth-child(3){transition: 0.2s;transform:rotate(45deg);width:11px;top: -2px;position: relative;}
 ion-menu-button{background-color: red;width: 15px;height: 15px;display: table;}
-.sidemenu{position: fixed;background: #052439;height: 100vh;width: 100%;display: none;}
+.sidemenu{position: fixed;background: #052439;height: 100vh;width: 100%;display: none;padding-bottom: 20px;overflow-y: scroll;;}
 .sidemenu .menu-profile{display: table;margin: 30px 15px 0 15px;border-bottom: 1px solid rgba(88, 145, 196, 0.21);padding-bottom: 30px;}
 .sidemenu .bg-side-profile{width: 70px;height: 70px;border-radius: 50%;background-color: rgba(255,255,255,0.16);padding:8px;text-align: center;display: inline-block;vertical-align: middle;}
 .sidemenu .bg-side-profile img{border-radius: 50%;;width: 53px;height: 53px;object-fit: cover;}
@@ -114,3 +117,5 @@ ion-menu-button{background-color: red;width: 15px;height: 15px;display: table;}
 .go-back{padding:12px;display: inline-block}
 ion-router-outlet.menu-active{border-radius: 30px;position: fixed !important;right: -260px !important;left: 260px !important;transform: scale(0.9);}
 .bottom-menu.menu-active{right: -260px;left: 260px;border-bottom-left-radius: 30px;transform: scale(0.9);bottom:20px}
+
+@media (min-height:570px){.inner-pages:before{height: 375px;}}

@@ -1,0 +1,15 @@
+.inner-pages{padding-bottom: 105px;}
+.white-card{padding:20px}
+h1{font-size: 22px;font-weight: 300;text-align: center;position: relative;margin: 0 0 20px 0;color: #fff;}
+.btn-danger,.btn-info{padding: 10px 15px;font-weight: 500;font-size: 14px;box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);width: 100%;}
+.white-card h3{margin: 20px 0 10px 0;font-size: 18px;color: #3583C9;font-weight: 700;border-left: 2px solid #FF4E69;padding-left: 12px;display: table;}
+.faqs li p{display: none}
+.faqs li.active p{display: block}
+.faqs{margin: 0;padding: 0;list-style: none;}
+.faqs li{border-bottom: 1px solid rgba(88, 145, 196, 0.21);display: block;padding:10px 0;}
+.faqs li:nth-last-child(1){border:none}
+.faqs li label{color: #3583C9;font-size: 14px;display: block;padding: 5px 0;position: relative;}
+.faqs li label img{position: absolute;top: 10px;right: 0;transition: 0.2s;transform:rotate(0deg);}
+.faqs li.active label img{transform: rotate(90deg);transition: 0.2s;}
+.faqs li label span{padding-right: 15px;display: table}
+.faqs li p{font-weight: 400;font-size: 13px;color: #555;line-height: normal;}
